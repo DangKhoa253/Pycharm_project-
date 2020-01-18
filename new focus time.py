@@ -11,7 +11,7 @@ while time > 0:
    minutes = (time // 3600)
    hours = (time // 10800)
    print('Time Left -+==> ',hours,':',minutes,':',seconds,)
-   os.system("CLS")
+   os.system("clear")
 if time == 0:
    print('Time Is Over!')
 
