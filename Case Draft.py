@@ -6,6 +6,7 @@ def begin():
     x=int(input("Let pick random number: "))
     if x in range(1,301):
         print(x)
+        return x 
     else:
         print("Select another number, the accepted number in range 1,300: ")
         return begin()
